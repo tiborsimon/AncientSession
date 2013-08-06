@@ -18,16 +18,15 @@ It was designed for low traffic sites, because it isn't care about the race cond
 ##Basic usage
 
 ####Create a session
-```php
+
 	cretaeSession();
-```
+
 	
 This code will create a session for the client identified by it's IP address. The session will expire after the defined expiraton time.
 
 
 ####Validate a session
 
-```php
 	// check if there is a valid session for the user
 	if (validateSession(false)) {
 		// refresh the session
@@ -36,7 +35,7 @@ This code will create a session for the client identified by it's IP address. Th
 	} else {
 		echo "Sorry. You don't have a valid session..";
 	}
-```
+
 This code will check if there is a valid session for the client. If there is, it refreshes it's expiration timer.
 
 
