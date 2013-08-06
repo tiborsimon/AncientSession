@@ -52,7 +52,7 @@
   	validateSession($refresh)
   	checkSession()
 
-  Ancient Session will create a file to store the active sessions.
+  Ancient Session will create a file to store the active sessions.	
 
 -----------------------------------------------------------------------------
   I M P O R T A N T 
@@ -141,7 +141,7 @@ function validateSession($refresh) {
 }
 
 /**
- * Check if there is a session file already.
+ * Check if there is a session file already on the server.
  * @author Tibor Simon
  * @version 1.0
  * @return boolean	true if there is a session file	
