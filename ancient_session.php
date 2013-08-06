@@ -2,23 +2,23 @@
 
 /*
 =============================================================================
-#  Ancient Session v1.0 - The Custom Made PHP Session Handler 	            #
+#  Ancient Session v1.0 - The Custom Made PHP Session Handler               #
 =============================================================================
 #  Copyright © 2013  Tibor Simon  <contact[_aT_]tibor-simon[_dOt_]com>      #
-#																			#
-#  This program is free software; you can redistribute it and/or modify 	#
-#  it under the terms of the GNU General Public License	Version 2 as		#
-#  published by the Free Software Foundation.								#
-#  																			#
-#  This program is distributed in the hope that it will be useful, but		#
-#  WITHOUT ANY WARRANTY; without even the implied warranty of 				#
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 		#
-#  General Public License for more details.   								#
-#																			#
-#  You should have received a copy of the GNU General Public License v2.0	#
-#  along with this program in the root directory; if not, write to the 		#
-#  Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, 		#
-#  Boston, MA 02110-1301, USA.												#
+#                                                                           #
+#  This program is free software; you can redistribute it and/or modify     #
+#  it under the terms of the GNU General Public License	Version 2 as        #
+#  published by the Free Software Foundation.                               #
+#                                                                           #
+#  This program is distributed in the hope that it will be useful, but      #
+#  WITHOUT ANY WARRANTY; without even the implied warranty of               #
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU        #
+#  General Public License for more details.                                 #
+#                                                                           #
+#  You should have received a copy of the GNU General Public License v2.0   #
+#  along with this program in the root directory; if not, write to the      #
+#  Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,         #
+#  Boston, MA 02110-1301, USA.                                              #
 =============================================================================
 #  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS  #
 #  OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF               #
@@ -26,7 +26,7 @@
 #  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY     #
 #  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,     #
 #  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE        #
-#  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.					#
+#  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                   #
 =============================================================================
 
 
@@ -52,7 +52,7 @@
   	validateSession($refresh)
   	checkSession()
 
-  Ancient Session will create a file to store the active sessions.	
+  Ancient Session will create a file to store the active sessions.
 
 -----------------------------------------------------------------------------
   I M P O R T A N T 
@@ -101,8 +101,8 @@ function createSession() {
  * Check if there is a valid session for the client.
  * @author Tibor Simon
  * @version 1.0
- * @param boolean 	$refresh 	false: just check if there is a session for the user
- *								true: check and if succeded, refreshes the session	
+ * @param boolean $refresh  false: just check if there is a session for the user
+ *                          true: check and if succeded, refreshes the session	
  * @return boolean	true if there is a valid session for the client identified by it's IP address	
  */
 function validateSession($refresh) {
@@ -141,7 +141,7 @@ function validateSession($refresh) {
 }
 
 /**
- * Check if there is a session file already on the server.
+ * Check if there is a session file already.
  * @author Tibor Simon
  * @version 1.0
  * @return boolean	true if there is a session file	
