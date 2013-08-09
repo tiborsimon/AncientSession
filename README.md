@@ -10,7 +10,7 @@ In version 1.0 you can find this functions:
 
 #####Important
 
-It was designed for low traffic sites, because it isn't care about the race conditions that may occour.
+It was designed for low traffic sites, because it isn't care about the race conditions that may occur.
 
 
 ---
