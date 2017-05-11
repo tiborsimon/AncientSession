@@ -1,4 +1,4 @@
-#Ancient Session
+# Ancient Session
 
 Ancient Session is a lightweight PHP script that addresses the problem when you have to reload your page to access previously created cookies or session variables.
 
@@ -8,16 +8,16 @@ In version 1.0 you can find this functions:
 * __validateSession($refresh)__
 * __checkSession( )__
 
-#####Important
+##### Important
 
 It was designed for low traffic sites, because it isn't care about the race conditions that may occu accessing the log file. To use high traffic sites, use database management system instead.
 
 
 ---
 
-##Basic usage
+## Basic usage
 
-####Create a session
+#### Create a session
 
 	cretaeSession();
 
@@ -25,7 +25,7 @@ It was designed for low traffic sites, because it isn't care about the race cond
 This code will create a session for the client identified by it's IP address. The session will expire after the defined expiraton time.
 
 
-####Validate a session
+#### Validate a session
 
 	// check if there is a valid session for the user
 	if (validateSession(false)) {
